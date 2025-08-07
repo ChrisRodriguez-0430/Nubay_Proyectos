@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fv5IUzm290WmT2naiqcLNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-393737.pdf" CVScreenId="2998e225-3e47-485e-8833-700aee0c5811" CvElementArea="693, 535, 111, 34" CvTextArea="720, 545, 56, 15" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="693, 535, 111, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Guardar' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Guardar' /&gt;" Guid="a928b32c-27f1-4228-a5d8-512992a2779f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="ef7c7f6cfa21a55a3789f4e1ed986e38.png" xmlns="">0-tRayfx46UiJijHsU5RrbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

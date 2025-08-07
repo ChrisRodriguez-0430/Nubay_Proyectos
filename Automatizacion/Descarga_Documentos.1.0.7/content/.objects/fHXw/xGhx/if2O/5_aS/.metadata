@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Todas las ubicaciones C…",
+  "Type": "Element",
+  "Id": "5_aSydZTaEKqAd0fG9V_2A",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/5_aSydZTaEKqAd0fG9V_2A",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/if2Ol0sik0-fEuCD9BeSmQ",
+  "Created": "2025-07-10T04:12:36.7900985Z",
+  "Updated": "2025-07-10T04:12:36.7900985Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

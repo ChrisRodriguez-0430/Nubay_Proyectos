@@ -1,0 +1,288 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Navigate" this:Navigate.in_WIID="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_System1_URL" Type="InArgument(x:String)" />
+    <x:Property Name="in_WIID" Type="InArgument(x:Int32)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Navigate_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Navigate" sap:VirtualizedContainerService.HintSize="1179.6000000000001,2591.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="534.4,2568" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="500.8,113.6" sap2010:WorkflowViewState.IdRef="Assign_12">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[GlobalVariablesNamespace.GlobalVariables.Contador]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[GlobalVariablesNamespace.GlobalVariables.Contador + 1]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Dashboard" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="500.8,2371.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="467.2,2131.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Boolean" Name="Descarga" />
+                <Variable x:TypeArguments="x:Boolean" Name="Valor" />
+                <Variable x:TypeArguments="x:Int32" Name="ValorExp" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGoToUrl DisplayName="Ir a URL - " sap:VirtualizedContainerService.HintSize="433.6,114.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[in_System1_URL+&quot;work-items/&quot;+in_WIID.ToString()]" Version="V4" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Download PDF Invoice'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/106257277" CVScreenId="033d1a95-73ae-4ffa-9322-690466e0ec3a" ContentHash="E5lfZsgUzEm6El2ps6hi4w" CvElementArea="380, 732, 237, 46" CvTextArea="422, 746, 177, 17" CvTextArgument="Download PDF Invoice" CvType="Button" DesignTimeRectangle="380, 732, 236, 45" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Download PDF Invoice' tag='BUTTON' type='button' class='btn btn-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Download PDF Invoice' /&gt;" Guid="7b7e1def-f29a-42f7-98b9-9dc170d7469c" InformativeScreenshot="56135bc89821c83432206e69b648491b.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/PVgKS93ToU2mGhfeUCehJQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NCheckElement DelayBefore="0" DisplayName="Comprobar elemento 'chrome.exe Invoice-3937…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NCheckElement_1" Result="[Descarga]" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V4">
+                <uix:NCheckElement.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-393737.pdf" ContentHash="1uJvXJ1W70WfCz5Fnui6rw" DesignTimeRectangle="93, 197, 1157, 64" Guid="8c7706d2-10e0-4d49-87ac-c5fbd90e8a8a" ImageBase64="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" InformativeScreenshot="d1f53facc8f693f278c29272628384ce.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/MGoK6J2ywkWE1F-vhDozRQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice-393737.pdf' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NCheckElement.Target>
+              </uix:NCheckElement>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-393737.pdf" CVScreenId="8864a4be-6c64-4ced-81e3-4628f4ecd263" ContentHash="ssarSZR2rUOFCjXcxfHM9Q" CvElementArea="1786, 204, 26, 26" CvType="Icon" DesignTimeRectangle="1784, 202, 30, 30" ElementType="Icon" Guid="4a495828-5a77-4776-b608-9d58e7a8ae2e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADISURBVEhL7ZTRCQMhDIZvMLdwCrdwC6dwC6dwCyew/EIg5LgmSmsf6sNHJFE/j+hdzrn+Cy6Z2MURb+OIzXjvewhhRFmzsCxOKfXWWo8x3moWjtjMEc8yJS6lDCHGUoyIuvV5mcXYsNY6ZJByMcAYfFwM8MMgOUV8JUlRl2uemBIDLufMSMG0GEj5rBQsiQHJV6RAFaOHOedbHjxdJMzHOpnnqGK6SDL/DmqDzHNUMb/FViyHVcV4o7SZFczXeq+Kv8URb+P/xC+lPZWJIwtGrQAAAABJRU5ErkJggg==" InformativeScreenshot="44598a71029bb4bee5249651e20d715d.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/rEUft-Kxz0OlUWu4uMKFCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice-393737.pdf' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <If Condition="[GlobalVariablesNamespace.GlobalVariables.Contador &lt;= 1]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="433.6,1207.2" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,677.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Escribir en 'Dirección Descargas'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Text="[Ruta_Carpeta + &quot;[k(Enter)]&quot;]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-941543.pdf" CVScreenId="7d485f3c-6240-41ec-b6d3-b037ec5020fa" ContentHash="Z9vm8S398kqRE7lcCvo7Gw" CvTextArea="235, 61, 70, 17" CvTextArgument="Descargas" CvType="Text" DesignTimeRectangle="190, 48, 397, 44" ElementType="Toolbar" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' title='Dirección: Descargas' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Dirección: Descargas' /&gt;" Guid="100ccb66-99a4-4722-9ba3-49df7ab9c830" InformativeScreenshot="b9bd7a38ef9bece0c0ef5d39ac1bbb90.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/oshvd12d-0yEtbRL7M4whQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Clic '&amp;Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-393737.pdf" CVScreenId="2998e225-3e47-485e-8833-700aee0c5811" ContentHash="fv5IUzm290WmT2naiqcLNw" CvElementArea="693, 535, 111, 34" CvTextArea="720, 545, 56, 15" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="693, 535, 111, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Guardar' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Guardar' /&gt;" Guid="a928b32c-27f1-4228-a5d8-512992a2779f" InformativeScreenshot="ef7c7f6cfa21a55a3789f4e1ed986e38.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/Be08lmYcCkeYUCsyP0Iayg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NNavigateBrowser DelayBefore="4" DisplayName="Navegar por el navegador - Volver" sap:VirtualizedContainerService.HintSize="382.4,105.6" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" Version="V4" />
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,391.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="Comprobar" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Clic '&amp;Guardar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8adfcdbf-218f-4747-a198-3ee618de0db7" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-393737.pdf" CVScreenId="2998e225-3e47-485e-8833-700aee0c5811" ContentHash="fv5IUzm290WmT2naiqcLNw" CvElementArea="693, 535, 111, 34" CvTextArea="720, 545, 56, 15" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="693, 535, 111, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Guardar' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Guardar' /&gt;" Guid="a928b32c-27f1-4228-a5d8-512992a2779f" InformativeScreenshot="ef7c7f6cfa21a55a3789f4e1ed986e38.png" Reference="vs5D0d3X_UiefOHLvDg1TQ/Be08lmYcCkeYUCsyP0Iayg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NNavigateBrowser DelayBefore="4" DisplayName="Navegar por el navegador - Volver" sap:VirtualizedContainerService.HintSize="382.4,105.6" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V4" />
+                  </Sequence>
+                </If.Else>
+              </If>
+              <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_11">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Int32">[GlobalVariablesNamespace.GlobalVariables.Contador]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Int32">[GlobalVariablesNamespace.GlobalVariables.Contador + 1]</InArgument>
+                </Assign.Value>
+              </Assign>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1158" BrowserType="Chrome" ContentHash="qaminC_oHUaNhMiLzzQl6g" IconBase64="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" InformativeScreenshot="319e2a9396e5f03e8bde31eff205e94e.jpg" Reference="vs5D0d3X_UiefOHLvDg1TQ/if2Ol0sik0-fEuCD9BeSmQ" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" Url="https://acme-test.uipath.com/home" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "explorer.exe Inicio - E…",
+  "Type": "Element",
+  "Id": "oC0iqg_DB0OGv1IVK0GGZQ",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/oC0iqg_DB0OGv1IVK0GGZQ",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/ndb-TwuyhUyVhkHg3yJ9yw",
+  "Created": "2025-06-18T19:53:24.5889666Z",
+  "Updated": "2025-06-18T19:53:24.5889666Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

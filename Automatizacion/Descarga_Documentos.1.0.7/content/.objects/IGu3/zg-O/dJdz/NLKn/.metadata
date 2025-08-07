@@ -1,0 +1,13 @@
+﻿{
+  "Name": "explorer.exe Documentos…(1)",
+  "Type": "Element",
+  "Id": "NLKnaL_NDUKjR89yT6b7Cw",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/NLKnaL_NDUKjR89yT6b7Cw",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/dJdzULePoUmjIUi4RXNfwg",
+  "Created": "2025-06-19T04:05:11.8251848Z",
+  "Updated": "2025-06-19T04:05:11.8251848Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

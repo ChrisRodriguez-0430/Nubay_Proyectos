@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Log In",
+  "Type": "App",
+  "Id": "fHXwWHVPS0amjGlnHmUgsQ",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/fHXwWHVPS0amjGlnHmUgsQ",
+  "Created": "2025-06-11T18:09:27.2081716Z",
+  "Updated": "2025-06-11T18:09:27.2081716Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

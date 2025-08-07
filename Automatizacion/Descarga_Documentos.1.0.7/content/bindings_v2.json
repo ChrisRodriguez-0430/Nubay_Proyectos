@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "key": "crodriguez@nubay.com.mx's workspace.System1_Credential",
+      "value": {
+        "folderPath": {
+          "defaultValue": "crodriguez@nubay.com.mx's workspace",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "System1_Credential",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "resource": "Connection",
+      "key": "498dc72c-2f0b-4950-9329-7633ae607d97",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "498dc72c-2f0b-4950-9329-7633ae607d97",
+          "isExpression": false,
+          "displayName": "Conexión",
+          "description": "La conexión que se va a utilizar"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-microsoft-outlook365",
+        "UseConnectionService": "True"
+      }
+    }
+  ]
+}

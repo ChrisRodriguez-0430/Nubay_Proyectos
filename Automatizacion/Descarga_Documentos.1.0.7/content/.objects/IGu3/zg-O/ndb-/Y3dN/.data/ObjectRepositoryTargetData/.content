@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gsrMx-ieM0-2Q-hDME32og" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8979e58e-0a43-4429-9d22-67e8b7e93fc3" CvTextArea="76, 430, 85, 15" CvTextArgument="Documentos" CvType="Text" DesignTimeRectangle="75, 418, 88, 40" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='Inicio' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Controlar host' cls='NamespaceTreeControl' title='Control de árbol de espacios de nombres' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='SysTreeView32' title='Panel de navegación' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Documentos (anclado)' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Documentos (anclado)' /&gt;" Guid="7f8dad20-f40c-40f2-85d7-bf48e0b8e950" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Inicio - Explorador de archivos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="5756227695d4d343aefeca33048f365e.png" xmlns="">0qqzTs0b22UmvqBZVu8XO-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t3a7t88YWkaPmq5xtBtdag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dc4aecbf-b755-4903-9899-7361c540a709" CvTextArea="256, 384, 96, 17" CvTextArgument="Nueva carpeta" CvType="Text" DesignTimeRectangle="253, 382, 143, 24" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Vista de carpetas Shell' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="36962fb9-1a76-4ee1-b921-4e8435353847" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Christian Paul - Personal - Explorador de archivos' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7f54c492ad24450cfb0227be9c76f4a0.png" xmlns="">0P_8lHY14YUyzS-kybiqYRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

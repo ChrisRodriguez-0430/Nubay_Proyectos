@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "folderPath": {
+          "defaultValue": "crodriguez@nubay.com.mx's workspace",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "System1_Credential",
+          "isExpression": false
+        },
+        "BindingsVersion": {
+          "defaultValue": "2.2",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "Connection",
+      "metadata": {
+        "ConnectionId": {
+          "defaultValue": "498dc72c-2f0b-4950-9329-7633ae607d97",
+          "isExpression": false,
+          "displayName": "Conexión",
+          "description": "La conexión que se va a utilizar"
+        },
+        "BindingsVersion": {
+          "defaultValue": "2.2",
+          "isExpression": false
+        },
+        "Connector": {
+          "defaultValue": "uipath-microsoft-outlook365",
+          "isExpression": false
+        },
+        "UseConnectionService": {
+          "defaultValue": "True",
+          "isExpression": false,
+          "displayName": "Usar Integration Service",
+          "description": "Utiliza Integration Service para autenticarse en el servicio"
+        }
+      }
+    },
+    {
+      "resource": "Connection",
+      "metadata": {
+        "ConnectionId": {
+          "defaultValue": "498dc72c-2f0b-4950-9329-7633ae607d97",
+          "isExpression": false,
+          "displayName": "Conexión",
+          "description": "La conexión que se va a utilizar"
+        },
+        "BindingsVersion": {
+          "defaultValue": "2.2",
+          "isExpression": false
+        },
+        "Connector": {
+          "defaultValue": "uipath-microsoft-outlook365",
+          "isExpression": false
+        },
+        "UseConnectionService": {
+          "defaultValue": "True",
+          "isExpression": false,
+          "displayName": "Usar Integration Service",
+          "description": "Utiliza Integration Service para autenticarse en el servicio"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z9vm8S398kqRE7lcCvo7Gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-941543.pdf" CVScreenId="7d485f3c-6240-41ec-b6d3-b037ec5020fa" CvTextArea="235, 61, 70, 17" CvTextArgument="Descargas" CvType="Text" DesignTimeRectangle="190, 48, 397, 44" ElementType="Toolbar" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' title='Dirección: Descargas' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Dirección: Descargas' /&gt;" Guid="100ccb66-99a4-4722-9ba3-49df7ab9c830" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="b9bd7a38ef9bece0c0ef5d39ac1bbb90.png" xmlns="">03aU-kwknyUuo5PYYInaXng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

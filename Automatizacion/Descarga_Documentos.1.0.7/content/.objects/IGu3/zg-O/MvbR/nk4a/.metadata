@@ -1,0 +1,13 @@
+﻿{
+  "Name": "botón Explorador de arc…",
+  "Type": "Element",
+  "Id": "nk4a6xWh1k-xlt-cCPiBYw",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/nk4a6xWh1k-xlt-cCPiBYw",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/MvbRycW2E0ejpfU4oS_TTg",
+  "Created": "2025-06-19T21:23:47.9549107Z",
+  "Updated": "2025-06-19T21:23:47.9549107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

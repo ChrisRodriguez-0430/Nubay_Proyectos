@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Calcule_Security",
+  "Type": "Screen",
+  "Id": "aYIQx-bJak61QrXhUT6Lgw",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/aYIQx-bJak61QrXhUT6Lgw",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/T-sn9Xc4M02QUQu6yi4y5g",
+  "Created": "2025-06-18T19:49:18.6133169Z",
+  "Updated": "2025-06-18T19:49:18.6133169Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

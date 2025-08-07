@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Dirección Descargas",
+  "Type": "Element",
+  "Id": "oshvd12d-0yEtbRL7M4whQ",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/oshvd12d-0yEtbRL7M4whQ",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/if2Ol0sik0-fEuCD9BeSmQ",
+  "Created": "2025-07-09T18:52:00.050487Z",
+  "Updated": "2025-07-09T18:52:00.050487Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

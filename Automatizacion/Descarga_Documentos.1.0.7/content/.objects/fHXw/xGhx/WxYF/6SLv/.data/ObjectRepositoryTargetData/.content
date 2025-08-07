@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q_9fhBzvWkCV3l17QGckGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/testdata/invoices/137/Invoice-941543.pdf" DesignTimeRectangle="145, 108, 127, 37" Guid="0eb4ea4d-5baf-4c13-a53e-22094a73036b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH8AAAAlCAYAAABrqDaCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJtSURBVHhe7ZjdjcMgDIC7Q3UX9a3vXYVxsgy7ZBZW8SkQgm0MJNKd0p4d6XtoCzb44yfq7fl8gqGTG//C0IPJV4zJV4zJV4zJV4zJV4zJV4zJV8wuf14AAAJ4VzdyPgAsc/W98dkw+at/D441MvknWYsp1PHdIPKD97CugeAdaWTyT/KZ8l0aOCwwo0ZU/gwLvx6chyD12Z/SPoWnCym2zcWKsXDXcRFprjU8Hhd6SCwHaVrrfGKvOP5cBxJTGEN3fvjJc+2O5Rpq+YKgs/KJzBW8oKpdkSXkvguKnX7jiwWTJKCF5zz4Q7HS5xBwmyKvnH6832B++TOT2x/LNYjyk8wi+Jx84XcimP0unBoEoZCFtGv3nT6CxNrksyuOL/wIqcdofjxPgyNt/hhZPlvdp+RX5155cnFwLul9gh/jzSLxHSfQjsWEbfA6JNCcD8yvJbY9lmtoys+7ar//TsnvCynF4QK2+5cfqa0idXONYvHciboOORaW38op5TkylmvoyC8T9SP5uCDsypDZYszsyBeugOp+xfRyDWO15fOT6PT8uNjhWK6hLx+/vbIXJboYYoN9cqkPnqwDv9CJxnwh0Jy8sPkNuVOkKld+4RvG6sjHRzg6AZs5+fz46TAcyzUM5e8DJbshC9+KIKzsfdFsTxU7Nqh3ELkX1+LwXSRAc5WY/Vht+cHPaYHnh58EVU4+v22DoL79sVyD/bfPaG6Cf4jJZ5h8xZh8QwUmXzEmXzEmXzEmXzEmXzEmXzEmXzEmXzEmXzG36fsLDJ3cHo8HvCPTNP069/s9rvjX67Wvfp5XEyZfyK0Fky/k1sIPdmHt/PYRoCAAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f848f0e30f96bffa6edf15670f21496b.png" xmlns="">0ltUFZqrf9EqH2iOO8yxntw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

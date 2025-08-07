@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Use Browser Chrome ACME System 1 - Work Items",
+  "Type": "Screen",
+  "Id": "znWkuusnq0mp_z4JDzAIAQ",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/znWkuusnq0mp_z4JDzAIAQ",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/xGhx4sfznUmAzqDMNrGCiQ",
+  "Created": "2025-06-11T18:21:11.3026413Z",
+  "Updated": "2025-06-11T18:21:11.3026413Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

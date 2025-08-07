@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kAVN_TTyOE6pxA6CILHqUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="23, 183, 354, 35" FullSelectorArgument="&lt;uia cls='MenuFlyoutItem' name='Carpeta' /&gt;" Guid="ca440c5d-9bc3-4ec5-88ac-eb81483a8b8e" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Documentos - Explorador de archivos' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8e7f59b64d55d21d0ad7aec9147ab386.png" xmlns="">0icnnH_0L-kepHOWVnt0mpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

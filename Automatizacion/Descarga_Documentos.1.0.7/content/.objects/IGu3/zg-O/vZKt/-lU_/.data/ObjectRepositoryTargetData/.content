@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m8AjE85RIUChoQA4pnOWzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="439bf285-2fb0-453a-a2c3-c7e9c965118d" CvTextArea="66, 18, 62, 20" CvTextArgument="Carpeta" CvType="Text" DesignTimeRectangle="68, 14, 293, 24" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Carpeta' role='menu item' /&gt;&lt;ctrl automationid='TextBlock' /&gt;" Guid="a44533ae-f6ae-4caf-9a54-5be0aa11e11c" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Microsoft.UI.Content.PopupWindowSiteBridge' title='PopupHost' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a178f693e648d7886beea9c84bcf2358.png" xmlns="">0zosRNEoZ50CE9VfJD_TYWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome [Parte4] Assignment 1 Calculate Client",
+  "Type": "Screen",
+  "Id": "az3qMydjxEGlJ8dayiJ4iQ",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/az3qMydjxEGlJ8dayiJ4iQ",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/Dw5WhNPX9Um0fqyERjLPbQ",
+  "Created": "2025-06-17T18:20:56.891588Z",
+  "Updated": "2025-06-17T18:20:56.891588Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "chrome.exe Guardar como",
+  "Type": "Element",
+  "Id": "6SLvSGDg2k-1KK8JQDfXiA",
+  "Reference": "vs5D0d3X_UiefOHLvDg1TQ/6SLvSGDg2k-1KK8JQDfXiA",
+  "ParentRef": "vs5D0d3X_UiefOHLvDg1TQ/WxYFZC4AVUOyKgBg8jtOyA",
+  "Created": "2025-06-19T18:52:08.9855437Z",
+  "Updated": "2025-06-19T18:52:08.9855437Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

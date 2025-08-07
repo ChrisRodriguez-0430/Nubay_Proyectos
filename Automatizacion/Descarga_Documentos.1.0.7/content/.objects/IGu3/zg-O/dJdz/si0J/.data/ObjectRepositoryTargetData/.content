@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ffNdMPfaYkOYcm2DZYaVug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6236b16d-33e5-468e-9a2f-8ef697270ba8" CvElementArea="249, 213, 147, 29" CvType="InputBox" DesignTimeRectangle="253, 218, 143, 24" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd aaname='Vista de carpetas Shell' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='Edit' /&gt;" Guid="f7e80fee-1ce9-4744-a6d2-bdfb4d30a931" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Documentos - Explorador de archivos' /&gt;" SearchSteps="FuzzySelector, CV" SelectionStrategy="UIA" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e5b7474c18d16eb99b0105e6b50bdd08.png" xmlns="">0EMdfXbS41E2R_qHg783Rqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
